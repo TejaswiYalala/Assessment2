@@ -14,7 +14,7 @@ void sort(int numbers[], int n)
         numbers[j+1] = x;
     }
 }
-//  find the median of the numbers
+//   median 
 float sortAndFindMedian(int numbers[], int n)
 {
     sort(numbers, n);
